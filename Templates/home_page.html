@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Margin</title>
+    <title>ViceVersa</title>
     <link rel="stylesheet" type="text/css" href="home_page1.css">
 </head>
 <body>
     <h1>ViceVersa</h1>
-    <form>
+    <form action="{% url 'reverse' %}">
         <p>Input here your text</p>
-        <p><textarea rows="10" cols="45" name="Text"></textarea></p>
+        <p><textarea rows="10" cols="45" name="input"></textarea></p>
         <p><input type="submit" value="Reverse!"></p>
     </form>
 </body>
